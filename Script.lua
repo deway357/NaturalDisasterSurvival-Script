@@ -3,7 +3,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Natural Disaster Survival",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Rayfield",
+   LoadingTitle = "Natural Disaster Survival Script",
    LoadingSubtitle = "by TheRobloxScripter",
    Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -53,7 +53,7 @@ local Paragraph = Tab:CreateParagraph({Title = "Disclaimer", Content = "Speed, J
 
 
 local Button = Tab:CreateButton({
-    Name = "Button Example",
+    Name = "InfiniteYeild",
     Callback = function()
         if IY_LOADED and not _G.IY_DEBUG == true then
             -- error("Infinite Yield is already running!", 0)
